@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFastDBF", "TestDbfLib\TestFastDBF.csproj", "{500A2192-A212-4DE0-8F47-3B0D453D9066}"
 EndProject
@@ -23,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastDBF.SQL", "FastDBF.SQL\FastDBF.SQL.csproj", "{47AD1B6C-6D59-4221-AADC-0E596CC7588C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastDbf.Sql Test", "FastDbf.Sql Test\FastDbf.Sql Test.csproj", "{EE64DD40-2BD7-4F26-ABCD-F4F8C395AB9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +50,14 @@ Global
 		{001F5EEC-FA0B-49BA-8FDF-18C5BCE88554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{001F5EEC-FA0B-49BA-8FDF-18C5BCE88554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{001F5EEC-FA0B-49BA-8FDF-18C5BCE88554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AD1B6C-6D59-4221-AADC-0E596CC7588C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AD1B6C-6D59-4221-AADC-0E596CC7588C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AD1B6C-6D59-4221-AADC-0E596CC7588C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AD1B6C-6D59-4221-AADC-0E596CC7588C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE64DD40-2BD7-4F26-ABCD-F4F8C395AB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE64DD40-2BD7-4F26-ABCD-F4F8C395AB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE64DD40-2BD7-4F26-ABCD-F4F8C395AB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE64DD40-2BD7-4F26-ABCD-F4F8C395AB9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
